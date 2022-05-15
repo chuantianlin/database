@@ -5,8 +5,8 @@ USE `games_store`;
 CREATE TABLE `products` (
 	`product_id` INT PRIMARY KEY AUTO_INCREMENT,
     `name` VARCHAR(50),
-    `desc` VARCHAR(100) NOT NULL,
-    `price` DECIMAL(5,2)
+    `description` VARCHAR(100) NOT NULL,
+    `price` DECIMAL(15,2)
 );
 
 CREATE TABLE `consoles` (
